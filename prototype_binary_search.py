@@ -10,20 +10,20 @@ def __read(fname):
 def __binSearch(key,arr,larr):
     lo = 0
     hi = larr-1
-    mid = int((lo+hi)/2)
+    mid = (lo+hi)//2
 
     while lo<hi:
         if arr[mid]>key:
             hi=mid-1
-            mid=int((lo+hi)/2) 
+            mid=(lo+hi)//2
         elif arr[mid]<key:
             lo=mid+1
-            mid=int((lo+hi)/2)
+            mid=(lo+hi)//2
         else:
             return mid
         
 if __name__ == "__main__":
-    fpath = "/home/akatsuki/Algorithms/BinarySearch/"
+    fpath = "/file/path/"
     fname = "largeText.txt"
     finput = fpath+fname
 
