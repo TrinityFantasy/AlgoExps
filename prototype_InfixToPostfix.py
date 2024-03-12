@@ -1,3 +1,6 @@
+# Algorithms, 4th Edition, Ch.1, Sec.3, Exe.1.3.10
+
+
 def top(arr):
     l = len(arr)
     if l == 1:
