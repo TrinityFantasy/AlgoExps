@@ -1,3 +1,6 @@
+# Algorithms, 4th Edition, Ch.1, Sec.3, Exe.1.3.11
+
+
 def evaluatePostfix(sin):
     opds = []
 
