@@ -1,3 +1,5 @@
+# Algorithms, 4th Edition, Ch.1, Sec.3, Exe.1.3.14
+
 class resizingArrayQueueofStrings:
     def __init__(self):
         self.__sque = []
