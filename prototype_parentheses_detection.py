@@ -1,3 +1,6 @@
+# Algorithms, 4th Edition, Ch.1, Sec.3, Exe.1.3.04
+
+
 def parenthesesCheck(str):
     l = len(str)
     if l == 1 or l == 0:
