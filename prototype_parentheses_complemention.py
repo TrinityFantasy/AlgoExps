@@ -1,4 +1,4 @@
-# Algorithms, 4th Edition, Ch.1, Sec.3, Exe.1.3.04
+# Algorithms, 4th Edition, Ch.1, Sec.3, Exe.1.3.09
 
 
 def parenthesesComp(str):
